@@ -1,0 +1,24 @@
+{
+    "acoes": [
+        {
+            "nome": "plantar",
+            "dispositivos": ["batata", "tomate", "feijão"],
+            "locais": ["estufa", "campo", "norte"]
+        },
+        {
+            "nome": "regar",
+            "dispositivos": ["plantações"],
+            "locais": ["estufa", "campo", "norte"]
+        },
+        {
+            "nome": "abrir",
+            "dispositivos": ["galinheiro", "celeiro"],
+            "locais": ["leste", "sul"]
+        },
+        {
+            "nome": "alimentar",
+            "dispositivos": ["vacas", "galinhas", "porcos"],
+            "locais": ["pasto", "celeiro"]
+        }
+    ]
+}
