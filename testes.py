@@ -1,12 +1,14 @@
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
+
 import unittest
 import torch
 import torchaudio
 import os
 
-# Importa as funções principais do seu assistente
+
 from assistente import iniciar_assistente, processar_transcricao, validar_comando
 from transcritor import transcrever
-
 
 PASTA_AUDIOS = "audios_testes" 
 
